@@ -1,1 +1,15 @@
-/* styles go here */
+.field {
+  margin-bottom: 10px;
+}
+
+.field:last-child {
+  margin-bottom: 0;
+}
+
+.field_group {
+  margin-bottom: 20px;
+}
+
+.field_group:last-child {
+  margin-bottom: 0;
+}
