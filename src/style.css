@@ -1,15 +1,7 @@
-.field {
+.field:not(:last-child) {
   margin-bottom: 10px;
 }
 
-.field:last-child {
-  margin-bottom: 0;
-}
-
-.field_group {
+.field-group:not(:last-child) {
   margin-bottom: 20px;
-}
-
-.field_group:last-child {
-  margin-bottom: 0;
 }
