@@ -20,9 +20,10 @@
           <label for="secondName">
             Surname:
             <input
-            type="text"
-            name="secondName"
-            autocomplete="off"
+              id="secondName"
+              type="text"
+              name="secondName"
+              autocomplete="off"
             >
           </label>
         </div>
@@ -31,6 +32,7 @@
           <label for="firstName">
             Name:
             <input
+            id="firstName"
             type="text"
             name="firstName"
             autocomplete="off"
@@ -44,6 +46,7 @@
             <input
             type="number"
             name="age"
+            id="age"
             value="12"
             min="1"
             max="100"
@@ -54,7 +57,11 @@
         <div class="field">
           <label for="dateOfBirth">
             Full date of birth:
-            <input type="date" name="dateOfBirth">
+            <input
+            type="date"
+            name="dateOfBirth"
+            id="dateOfBirth"
+            >
           </label>
         </div>
 
@@ -62,6 +69,7 @@
           <label for="term">
             I accept the term of the agreement
             <input
+            id="term"
             type="checkbox"
             name="term"
             required
@@ -76,10 +84,11 @@
           <label for="email">
             E-mail:
             <input
-            type="email"
-            name="email"
-            placeholder="email@example.com"
-            required
+              id="email"
+              type="email"
+              name="email"
+              placeholder="email@example.com"
+              required
             >
           </label>
         </div>
@@ -88,10 +97,11 @@
           <label for="password">
             Password:
             <input
-            type="password"
-            name="password"
-            minlength="6"
-            maxlength="20"
+              id="password"
+              type="password"
+              name="password"
+              minlength="6"
+              maxlength="20"
             >
           </label>
         </div>
@@ -103,10 +113,10 @@
           Do you love cats?
           <label for="loveCat">
             <input
-            type="radio"
-            name="loveCat"
-            value="yes"
-            id="loveCat"
+              id="loveCat"
+              type="radio"
+              name="loveCat"
+              value="yes"
             >
             Yes
           </label>
@@ -126,9 +136,10 @@
           <label for="color">
             What is your favorite color?
             <input
-            type="color"
-            name="color"
-            value="#000"
+              id="color"
+              type="color"
+              name="color"
+              value="#000"
             >
           </label>
         </div>
@@ -137,8 +148,9 @@
           <label for="time">
             What time do you go to bed?
             <input
-            type="time"
-            name="time"
+              id="time"
+              type="time"
+              name="time"
             >
           </label>
         </div>
@@ -147,9 +159,9 @@
           <label for="car">
             What are your favorite brand of cars?
             <select
-            name="car"
-            id="car"
-            multiple
+              name="car"
+              id="car"
+              multiple
             >
               <option value="BMW">BMW</option>
               <option value="Audi">Audi</option>
@@ -163,9 +175,10 @@
           <label for="rateWork">
             How do you rate our work?
             <input
-            type="range"
-            name="rateWork"
-            value="0"
+              id="rateWork"
+              type="range"
+              name="rateWork"
+              value="0"
             >
           </label>
         </div>
@@ -177,11 +190,11 @@
           <label for="comment">
             Comments:
             <textarea
-            name="comment"
-            cols="20"
-            rows="2"
-            > 
-            </textarea>
+              id="comment"
+              name="comment"
+              cols="20"
+              rows="2"
+           ></textarea>
           </label>
         </div>
 
